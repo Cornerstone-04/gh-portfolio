@@ -1,7 +1,12 @@
+import { Layout } from "@/components/layout/layout";
+import { useParams } from "react-router";
+
 export const ProjectPage = () => {
+  const { id } = useParams();
+
   return (
-    <div>
-      <h1>Project</h1>
-    </div>
+    <Layout>
+      <h1>Project {id}</h1>
+    </Layout>
   );
 };
