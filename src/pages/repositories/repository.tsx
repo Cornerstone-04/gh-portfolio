@@ -1,10 +1,7 @@
-import { Layout } from "@/components/layout/layout";
-// import { useParams } from "react-router";
-
 export const Repository = () => {
   return (
-    <Layout>
+    <div>
       <h1>Project </h1>
-    </Layout>
+    </div>
   );
 };

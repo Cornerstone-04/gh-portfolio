@@ -1,9 +1,7 @@
-import { Layout } from "@/components/layout/layout";
-
 export const Repositories = () => {
   return (
-    <Layout>
+    <div>
       <h1>Projects</h1>
-    </Layout>
+    </div>
   );
 };
